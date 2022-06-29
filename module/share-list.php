@@ -1,17 +1,18 @@
 <div class="share-list">
-  <a aria-label="Share Facebook" title="Share Facebook" class="sticky-link share-link-fb content_center" 
+  <a aria-label="Facebook ADDS" title="Facebook ADDS" class="share-link share-link-fb content_center" 
   href=" ">
-    <?php require ($_SERVER['ADDS'].'img/icon/facebook-default.php')?>
+    <?php require ($_SERVER['ADDS'].'img/icon/facebook-default.svg')?>
   </a>
-  <a aria-label="Share Twitter" title="Share Twitter" class="sticky-link share-link-tw content_center" 
+  <a aria-label="Twitter ADDS" title="Twitter ADDS" class="share-link share-link-tw content_center" 
   href=" ">
-    <?php require ($_SERVER['ADDS'].'img/icon/twitter-default.php')?>
+    <?php require ($_SERVER['ADDS'].'img/icon/twitter-default.svg')?>
   </a>
-  <a aria-label="Share Whatsapp" title="Share Whatsapp" class="sticky-link share-link-wa content_center" 
+  <a aria-label="Instagram ADDS" title="Instagram ADDS" class="share-link share-link-ig content_center" 
   href=" ">
-    <?php require ($_SERVER['ADDS'].'img/icon/whatsapp-default.php')?>
+    <?php require ($_SERVER['ADDS'].'img/icon/instagram-default.svg')?>
   </a>
-  <button title="Copy Link" class="sticky-link share-link-ot content_center" onclick="CopyURL();">
-    <?php require ($_SERVER['ADDS'].'img/icon/copylink-default.php')?>
-  </button>
+  <a aria-label="Youtube ADDS" title="Youtube ADDS" class="share-link share-link-yt content_center" 
+  href=" ">
+    <?php require ($_SERVER['ADDS'].'img/icon/youtube-default.svg')?>
+  </a>
 </div>

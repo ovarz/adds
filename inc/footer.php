@@ -1,13 +1,14 @@
-<footer class="footer-all content_center">
+<footer class="content_center">
   <span class="width-max">
-	ADDS &copy;2022 - All Right Reserved
+	<div class="footer-copyright">ADDS &copy;2022 - All Right Reserved</div>
+	<?php require ($_SERVER['ADDS'].'module/share-list.php')?>
   </span>
 </footer>
 
 
 
 <div id="btt" class="content_center" title="Return To Top">
-  <?php require ($_SERVER['ADDS'].'img/icon/back-to-top.php')?>
+  <?php require ($_SERVER['ADDS'].'img/icon/back-to-top.svg')?>
 </div>
 
 
