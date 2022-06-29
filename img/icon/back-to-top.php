@@ -1,0 +1,1 @@
+<svg class="svgicon svgicon-btt" width="13.7" height="12" viewBox="0 0 40 35"><path d="M0 30.9904L3.99943 35L20 18.9589L36.0006 35L40 30.9904L20.0028 10.9398L0 30.9904ZM39.5984 5.67123H0V0H39.5984V5.67123Z"/></svg>
