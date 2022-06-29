@@ -4,6 +4,5 @@
       <img alt="Logo ADDS" src="img/logo.png" width="582" height="275">
     </a>
 	<?php require ($_SERVER['ADDS'].'inc/menu.php')?>
-	<?php require ($_SERVER['ADDS'].'module/share-list.php')?>
   </span>
 </header>

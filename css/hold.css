@@ -34,23 +34,24 @@ background-color:hsl(var(--color-link-secondary) / 100%); border-radius:var(--si
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 
-header{background-color:var(--bg-2);}
+header, menu{background-color:var(--bg-2);}
 header:after{background:linear-gradient(to right, hsl(var(--color-link-secondary) / 100%) 0%, hsl(var(--color-link-tertiary) / 100%) 100%);}
 .header-logo:hover{opacity:0.5;}
 
-footer{padding:var(--size-4); border-top:1px dashed hsl(var(--color-link-primary) / 21%);}
+menu .sticky-link{border-color:hsl(var(--color-link-primary) / 21%);}
+
+footer{background-color:var(--bg-2); padding:var(--size-4); border-top:1px dashed hsl(var(--color-link-primary) / 21%);}
 footer *{text-align:center; font-size:var(--size-3);}
 
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  
+  menu{position:absolute; width:100%; height:calc(100vh - var(--size-6)); top:var(--size-6); right:0;}
 }
 
 
 
 @media screen and (min-width:1024px){
-  
 }
   
   

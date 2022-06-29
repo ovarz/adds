@@ -3,7 +3,7 @@
 <?php require ($_SERVER['ADDS'].'inc/header.php')?>
 <div class="rancak-container">
 
-  <section title="Cover" id="Cover" class="section-row section-cover content_center">
+  <section title="Home" id="Home" class="section-row section-cover content_center">
     <span class="width-max">
 	  tes
 	</span>
