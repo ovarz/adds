@@ -44,6 +44,7 @@ footer{background-color:var(--bg-2); border-top:1px dashed hsl(var(--color-link-
 footer .width-max{align-items:center;}
 footer .share-list{display:flex;}
 footer .share-link{padding:var(--size-4) var(--size-3);}
+footer .share-link:hover{fill:hsl(var(--color-link-secondary) / 100%);}
 footer .svgicon{width:auto; height:var(--size-4);}
 
 
