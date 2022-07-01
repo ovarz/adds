@@ -55,7 +55,7 @@ header:after{background:linear-gradient(to right, hsl(var(--color-link-secondary
 .bottom-map iframe{position:absolute; top:0; left:0; width:100%; height:100%;  filter:grayscale(0.34) hue-rotate(8deg);}
 
 footer{background-color:var(--bg-2); border-top:1px dashed hsl(var(--color-link-primary) / 21%);}
-footer .width-max{align-items:center;}
+footer .width-max{display:flex; align-items:center;}
 footer .socmed-list{display:flex;}
 footer .socmed-link{padding:var(--size-4) var(--size-3);}
 footer .socmed-link:hover{fill:hsl(var(--color-link-secondary) / 100%);}
@@ -78,16 +78,17 @@ footer .svgicon{width:auto; height:var(--size-4);}
   .section-bottom .width-max{padding-left:0; padding-right:0;}
   .bottom-map:before{padding-top:100%;}
   
+  footer .width-max{flex-wrap:wrap; justify-content:center;}
   footer .footer-copyright{padding:var(--size-4); padding-bottom:0; text-align:center;}
   footer .socmed-list{justify-content:center;}
 }
 
 
 
-@media screen and (min-width:1024px){}
+@media screen and (min-width:1024px){
   .bottom-map:before{padding-top:56.25%;}
 
-  footer .width-max{display:flex; justify-content:space-between;}
+  footer .width-max{justify-content:space-between;}
   footer .footer-copyright{padding-left:var(--size-4);}
   footer .socmed-link-ot{padding-right:var(--size-4);}
 }
