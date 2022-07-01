@@ -23,11 +23,11 @@
 		  <div>Jakarta Selatan, 12820.</div>
         </div>
 		<div class="bottom-contact">
-		  <a aria-label="Link Title" title="Link Title" class="bottom-contact-link" href=" ">
+		  <a aria-label="Link Title" title="Link Title" class="bottom-contact-link" href="tel:000000000000">
 		    <div class="bcl-icon"><?php require ($_SERVER['ADDS'].'img/icon/phone.svg')?></div>
 		    <div class="bcl-label">+62 000 0000 0000</div>
 		  </a>
-		  <a aria-label="Link Title" title="Link Title" class="bottom-contact-link" href=" ">
+		  <a aria-label="Link Title" title="Link Title" class="bottom-contact-link" href="mailto:pay_joe@adds.id">
 		    <div class="bcl-icon"><?php require ($_SERVER['ADDS'].'img/icon/mail.svg')?></div>
 		    <div class="bcl-label">pay_joe@adds.id</div>
 		  </a>
