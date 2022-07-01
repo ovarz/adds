@@ -13,7 +13,7 @@
 
 
 
-  <section title="Address" id="Address" class="section-bottom">
+  <section title="Contact" id="Contact" class="section-bottom">
     <span class="width-max">
 	  <div class="section-bottom-container">
 	    <div class="bottom-name">PT Adhi Daya Digital Sejahtera</div>
