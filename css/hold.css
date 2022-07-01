@@ -43,7 +43,7 @@ header:after{background:linear-gradient(to right, hsl(var(--color-link-secondary
 .section-bottom{padding-top:var(--size-6);}
 .section-bottom > span{display:block; margin:0 auto; padding:0 var(--size-4) !important;}
 .section-bottom-container *{text-align:center;}
-.bottom-name{font-weight:900; color:hsl(var(--color-link-primary) / 100%); font-size:21px; margin-bottom:var(--size-1);}
+.bottom-name{font-weight:900; color:hsl(var(--color-link-primary) / 100%); font-size:24px; margin-bottom:var(--size-1); text-transform:uppercase;}
 .bottom-address span{display:inline-block;}
 .bottom-contact, .bottom-contact *{display:flex; align-items:center;}
 .bottom-contact{justify-content:center; flex-wrap:wrap; margin-top:var(--size-2);}
