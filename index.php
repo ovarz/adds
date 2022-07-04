@@ -4,9 +4,44 @@
 <div class="rancak-container">
 
   <section title="Home" id="Home" class="section-row section-cover content_center">
+    <style><?php require ($_SERVER['ADDS'].'css/cover.css')?></style>
     <span class="width-max">
-	  tes
+	  <div class="section-cover-content">
+        <div class="scc-container">
+          <h1 class="scc-title cd-headline clip">
+            <span class="scc-label">The new website for</span>
+            <span class="scc-words-wrapper cd-words-wrapper">
+              <b class="is-visible">app&nbsp;landing</b>
+              <b class="is-hidden">showcase</b>
+              <b class="is-hidden">screenshoot</b>
+            </span>
+          </h1>
+          <h2 class="scc-subtitle">SaaSio is the best software platform for running an internet business.</h2>
+          <div class="scc-anchor">
+            <button class="btn scc-button" onclick="functionforscroll('About')">
+              <span>View More</span>
+            </button>
+          </div>
+        </div>
+      </div>
+	  <div class="section-cover-image">
+        <div class="sci-frame flex_ori thumb-loading">
+          <img alt="img_title" class="lazyload" data-original="img/cover-img.png" />
+        </div>
+      </div>
 	</span>
+    <div class="waveWrapper waveAnimation">
+      <div class="waveWrapperInner bgTop">
+        <div class="wave waveTop" style="background-image: url('img/b-shapeup.png')"></div>
+      </div>
+      <div class="waveWrapperInner bgMiddle">
+        <div class="wave waveMiddle" style="background-image: url('img/b-shapemiddle.png')"></div>
+      </div>
+      <div class="waveWrapperInner bgBottom">
+        <div class="wave waveBottom" style="background-image: url('img/b-shapemiddle.png')"></div>
+      </div>
+    </div>
+    <script defer rancak-hold="js/typer-new.js"></script>
   </section>
 
 

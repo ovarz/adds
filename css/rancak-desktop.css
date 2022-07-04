@@ -8,3 +8,6 @@ header .svgicon{height:24px;}
 
 menu{display:flex !important;}
 menu .sticky-link:last-child{padding-right:var(--size-4);}
+
+.section-cover .width-max{grid-template-columns:1fr var(--cover-img-width);}
+.scc-title{font-size:5em;}
