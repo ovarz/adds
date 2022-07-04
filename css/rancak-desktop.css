@@ -1,5 +1,6 @@
 .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
 body{padding-top:var(--size-7);}
+.section-title{font-size:var(--size-6);}
 
 .sticky-link{height:var(--size-7); font-size:calc(var(--default-fontsize) + 2px);}
 

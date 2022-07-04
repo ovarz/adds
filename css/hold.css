@@ -35,6 +35,7 @@ background-color:hsl(var(--color-link-secondary) / 100%); border-radius:var(--ro
 .socmed-link-tw{fill:var(--color-tw);}
 .socmed-link-ig{fill:var(--color-ig);}
 .socmed-link-yt{fill:var(--color-yt);}
+.section-title{color:hsl(var(--color-link-primary) / 100%);}
 .sticky-curr{color:hsl(var(--color-link-secondary) / 100%); fill:hsl(var(--color-link-secondary) / 100%);}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:hsl(var(--color-link-primary) / 100%);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
@@ -45,6 +46,15 @@ header:after{background:linear-gradient(to right, hsl(var(--color-link-secondary
 .header-logo:hover{opacity:0.5;}
 
 .scc-title{color:hsl(var(--color-link-primary) / 100%);}
+
+.section-team-container{display:flex; flex-wrap:wrap; justify-content:center;}
+.stc-box{width:100%; margin:var(--size-1); background-color:var(--bg-2); border-radius:var(--rounded-small); overflow:hidden; position:relative;}
+.stc-photo:before{padding-top:133.33%; position:relative; z-index:3;
+background:linear-gradient(to bottom, transparent 50%, var(--bg-2) 100%);}
+.stc-info{position:absolute; z-index:4; bottom:0; left:0; width:100%; padding:var(--size-3);}
+.stc-info *{text-align:center; text-shadow:2px 2px 10px #212121;}
+.stc-name{font-weight:bold; line-height:120%; color:hsl(var(--color-link-primary) / 100%);}
+.stc-title{margin-top:var(--size-1);}
 
 .section-bottom{padding-top:var(--size-6);}
 .section-bottom > span{display:block; margin:0 auto; padding:0 var(--size-4) !important;}
@@ -81,6 +91,8 @@ footer .svgicon{width:auto; height:var(--size-4);}
   .header-menu-open .htm-line-2{width:0; opacity:0;}
   .header-menu-open .htm-line-3{transform:rotate(135deg);}
   
+  .stc-box{max-width:148px;}
+  
   .section-bottom .width-max{padding-left:0; padding-right:0;}
   .bottom-map:before{padding-top:100%;}
   
@@ -93,6 +105,8 @@ footer .svgicon{width:auto; height:var(--size-4);}
 
 @media screen and (min-width:1024px){
   .bottom-map:before{padding-top:56.25%;}
+  
+  .stc-box{max-width:225px;}
 
   footer .width-max{justify-content:space-between;}
   footer .footer-copyright{padding-left:var(--size-4);}

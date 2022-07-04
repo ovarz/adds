@@ -1,4 +1,5 @@
 <?php require ('inc/base.php')?>
+<?php require ($_SERVER['ADDS'].'inc/sample.php')?>
 <?php require ($_SERVER['ADDS'].'inc/meta.php')?>
 <?php require ($_SERVER['ADDS'].'inc/header.php')?>
 <div class="rancak-container">
@@ -42,6 +43,29 @@
       </div>
     </div>
     <script defer rancak-hold="js/typer-new.js"></script>
+  </section>
+
+
+
+
+
+  <section title="Our Team" id="Team" class="section-row section-team content_center">
+    <span class="width-max">
+	  <div class="section-title">Our Team</div>
+      <div class="section-team-container">
+        <?php for ($i=1; $i <= 4 ; $i++) { ?>
+          <div class="stc-box">
+            <div class="stc-photo flex_ori thumb-loading">
+              <img alt="img_title" class="lazyload" data-original="img/sample/profile-<?php echo rand(1,10); ?>.jpg" />
+            </div>
+            <div class="stc-info">
+              <h2 class="stc-name"><?php echo $random_name[array_rand($random_name)]; ?></h2>
+              <h3 class="stc-title">Job Title</h3>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+	</span>
   </section>
 
 
