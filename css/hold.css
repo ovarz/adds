@@ -56,6 +56,20 @@ background:linear-gradient(to bottom, transparent 50%, var(--bg-2) 100%);}
 .stc-name{font-weight:bold; line-height:120%; color:hsl(var(--color-link-primary) / 100%);}
 .stc-title{margin-top:var(--size-1);}
 
+.section-review-container{display:grid; grid-gap:var(--size-4); grid-template-columns:repeat(auto-fit, minmax(var(--review-box),1fr));}
+.svc-box{--margin-bottom:90px; --thumb-size:55px;
+position:relative; background-color:var(--bg-2); border-radius:var(--rounded-small); padding:var(--size-4); margin-bottom:var(--margin-bottom);}
+.svc-bottom{position:absolute; bottom:calc(var(--margin-bottom) * -1); left:0;}
+.svc-point{fill:var(--bg-2); line-height:0; margin-left:16px;}
+.svc-point .svgicon{width:auto; height:var(--size-3);}
+.svc-profile{display:grid; grid-gap:var(--size-3); grid-template-columns:var(--thumb-size) 1fr; margin:var(--size-3) 0;}
+.svc-profile-circle{border-radius:50%; overflow:hidden;}
+.svc-profile-circle:before{padding-top:100%;}
+.svc-profile-info{display:flex; flex-wrap:wrap; align-content:center; align-items:center;}
+.svc-profile-name, .svc-profile-title{width:100%; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;}
+.svc-profile-name{font-weight:bold; line-height:120%; color:hsl(var(--color-link-primary) / 100%);}
+.svc-profile-title{font-size:12px; margin-top:var(--size-1);}
+
 .section-bottom{padding-top:var(--size-6);}
 .section-bottom > span{display:block; margin:0 auto; padding:0 var(--size-4) !important;}
 .section-bottom-container *{text-align:center;}
@@ -93,6 +107,8 @@ footer .svgicon{width:auto; height:var(--size-4);}
   
   .stc-box{max-width:148px;}
   
+  .section-review-container{--review-box:200px;}
+  
   .section-bottom .width-max{padding-left:0; padding-right:0;}
   .bottom-map:before{padding-top:100%;}
   
@@ -107,6 +123,8 @@ footer .svgicon{width:auto; height:var(--size-4);}
   .bottom-map:before{padding-top:56.25%;}
   
   .stc-box{max-width:225px;}
+  
+  .section-review-container{--review-box:300px;}
 
   footer .width-max{justify-content:space-between;}
   footer .footer-copyright{padding-left:var(--size-4);}

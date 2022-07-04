@@ -72,6 +72,41 @@
 
 
 
+  <section title="Client's Review" id="Review" class="section-row section-review content_center">
+    <span class="width-max">
+	  <div class="section-title">Client's Review</div>
+      <div class="section-review-container">
+        <?php for ($i=1; $i <= 6 ; $i++) { ?>
+          <div class="svc-box">
+            <div class="svc-bubble">
+              <?php echo $random_summary[array_rand($random_summary)]; ?>
+            </div>
+            <div class="svc-bottom">
+              <div class="svc-point">
+                <?php require ($_SERVER['ADDS'].'img/icon/point-down.svg')?>
+              </div>
+              <div class="svc-profile">
+                <div class="svc-profile-thumb">
+                  <div class="svc-profile-circle flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/sample/profile-<?php echo rand(1,10); ?>.jpg" />
+                  </div>
+                </div>
+                <div class="svc-profile-info">
+                  <div class="svc-profile-name"><?php echo $random_name[array_rand($random_name)]; ?></div>
+                  <div class="svc-profile-title">Job Title at Company Name</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+	</span>
+  </section>
+
+
+
+
+
   <section title="Contact" id="Contact" class="section-bottom">
     <span class="width-max">
 	  <div class="section-bottom-container">
