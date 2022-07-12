@@ -49,6 +49,28 @@
 
 
 
+  <section title="About Us" id="About" class="section-row section-about content_center">
+    <span class="width-max">
+	  <div class="section-title">About Us</div>
+	  <div class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum turpis sed odio maximus dictum.</div>
+      <div class="section-about-feature">
+        <?php for ($i=1; $i <= 3 ; $i++) { ?>
+		<div class="saf-box">
+		  <div class="saf-icon content_center">
+		    <?php require ($_SERVER['ADDS'].'img/icon/dev.svg')?>
+		  </div>
+		  <div class="saf-title">Lorem Ipsum</div>
+		  <div class="saf-desc"><?php echo $random_summary[array_rand($random_summary)]; ?></div>
+		</div>
+		<?php } ?>
+      </div>
+	</span>
+  </section>
+
+
+
+
+
   <section title="Our Team" id="Team" class="section-row section-team content_center">
     <span class="width-max">
 	  <div class="section-title">Our Team</div>
