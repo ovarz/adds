@@ -6,10 +6,12 @@ var all_scroll = function(){
     var scroll_position = $(window).scrollTop();
 
     if(scroll_position >= 1){
+      $('header').addClass("header-sticky");	
       $('#btt').css("display","flex");	
     }
 
     else{
+      $('header').removeClass("header-sticky");
       $('#btt').hide();
     }
   });  
@@ -50,7 +52,8 @@ var scroll_reveal_show = function(){
   sr.reveal('.section-about-feature > *',100);
   sr.reveal('.section-team-container > *',100);
   sr.reveal('.section-review-container > *',100);
-  sr.reveal('.section-bottom-container *',100);
+  sr.reveal('.section-bottom-container > *',100);
+  sr.reveal('.socmed-list > *',100);
 };
 /* end scroll reveal show */
 

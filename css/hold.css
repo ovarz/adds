@@ -2,8 +2,8 @@
   --bg-2:#131923; 
   --color-default:#A3ABBD; 
   --color-link-primary:213deg 100% 98%; 
-  --color-link-secondary:113deg 50% 66%;
-  --color-link-tertiary:204deg 100% 49%;
+  --color-link-secondary:204deg 100% 49%;
+  --color-link-tertiary:310deg 100% 50%;
   --color-fb:#1877f2;
   --color-tw:#00acec;
   --color-wa:#2bb240;
@@ -41,12 +41,17 @@ background-color:hsl(var(--color-link-secondary) / 100%); border-radius:var(--ro
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 
-header, menu, .section-cover{background-color:var(--bg-2);}
-header:after{background:linear-gradient(to right, hsl(var(--color-link-secondary) / 100%) 0%, hsl(var(--color-link-tertiary) / 100%) 100%);}
+header{transition:all 0.34s;}
+header:after{background:linear-gradient(to right, hsl(var(--color-link-tertiary) / 100%) 0%, hsl(var(--color-link-secondary) / 100%) 100%);}
+.header-sticky{background-color:var(--bg-2);}
 .header-logo:hover{opacity:0.5;}
 
+.section-cover{background:linear-gradient(to right, hsl(var(--color-link-tertiary) / 100%) 0%, hsl(var(--color-link-secondary) / 100%) 100%);}
 .scc-title{color:hsl(var(--color-link-primary) / 100%);}
+.scc-subtitle{color:hsl(var(--color-link-primary) / 89%);}
 
+.section-about:before{content:''; display:block; height:68.6%; background:url("../img/f-shape1.png") no-repeat;
+position:absolute; z-index:-1; top:0; right:0; width:100%; max-width:739px; max-height:507px;}
 .saf-box, .saf-icon{transition:all 0.34s;}
 .saf-box{background-color:var(--bg-2); color:hsl(var(--color-link-primary) / 55%); border-radius:var(--rounded-small);}
 .saf-icon{fill:hsl(var(--color-link-secondary) / 100%);}
@@ -54,6 +59,8 @@ header:after{background:linear-gradient(to right, hsl(var(--color-link-secondary
 .saf-box:hover{background-color:hsl(var(--color-link-secondary) / 55%); color:hsl(var(--color-link-primary) / 100%);}
 .saf-box:hover .saf-icon{fill:hsl(var(--color-link-primary) / 100%);}
 
+.section-team:before{content:''; display:block; height:89.26%; background:url("../img/f-shape2.png") no-repeat;
+position:absolute; z-index:-1; top:0; left:0; width:100%; max-width:739px; max-height:507px;}
 .section-team-container{display:flex; flex-wrap:wrap; justify-content:center;}
 .stc-box{width:100%; margin:var(--size-1); background-color:var(--bg-2); border-radius:var(--rounded-small); overflow:hidden; position:relative;
 transition:all 0.34s;}
@@ -65,6 +72,11 @@ background:linear-gradient(to bottom, transparent 50%, var(--bg-2) 100%);}
 .stc-title{margin-top:var(--size-1);}
 .stc-box:hover{filter:grayscale(100%);}
 
+.section-review:before, .section-review:after{content:''; display:block; position:absolute; z-index:-1; width:100%; opacity:0.55;}
+.section-review:before{height:71.98%; bottom:0; left:0; max-width:828px; max-height:596px; 
+background:url("../img/review1.png") no-repeat bottom left;}
+.section-review:after{height:147.29%; top:0; right:0; max-width:537px; max-height:791px; 
+background:url("../img/review2.png") no-repeat top right;}
 .section-review-container{display:grid; grid-gap:var(--size-5); grid-template-columns:repeat(auto-fit, minmax(var(--review-box),1fr));}
 .svc-box{--margin-bottom:90px; --thumb-size:55px; background-color:var(--bg-2); fill:var(--bg-2); transition:all 0.34s;
 position:relative; border-radius:var(--rounded-small); padding:var(--size-4); margin-bottom:var(--margin-bottom);
@@ -107,7 +119,9 @@ footer .svgicon{width:auto; height:var(--size-4);}
 
 @media screen and (min-width:0px) and (max-width:1023px){
   menu, menu .sticky-link{width:100%;}
-  menu{position:absolute; width:100%; height:calc(100vh - var(--size-6)); top:var(--size-6); right:0; overflow-y:auto;}
+  menu{position:absolute; width:calc(100% - var(--size-4) - var(--size-4)); max-height:calc(100vh - var(--size-7)); 
+  top:calc(var(--size-6) + var(--size-1)); right:var(--size-4); 
+  overflow-y:auto; background-color:var(--bg-2); border-radius:var(--rounded-small);}
   menu .sticky-link{display:block; padding:0 var(--size-4); border-bottom:1px dashed hsl(var(--color-link-primary) / 21%);}
   
   .htm-line{border-radius:var(--rounded-small); background-color:hsl(var(--color-link-primary) / 100%);}

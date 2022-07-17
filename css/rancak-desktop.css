@@ -1,5 +1,4 @@
 .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
-body{padding-top:var(--size-7);}
 
 .sticky-link{height:var(--size-7); font-size:calc(var(--default-fontsize) + 2px);}
 
@@ -9,5 +8,6 @@ header .svgicon{height:24px;}
 menu{display:flex !important;}
 menu .sticky-link:last-child{padding-right:var(--size-4);}
 
+.section-cover{padding-top:var(--size-7);}
 .section-cover .width-max{grid-template-columns:1fr var(--cover-img-width);}
 .scc-title{font-size:5em;}
