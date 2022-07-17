@@ -44,9 +44,22 @@ var functionforscroll = function(id){
 
 
 
+/* scroll reveal show */
+var scroll_reveal_show = function(){
+  window.sr = ScrollReveal({reset:false,mobile:true,viewFactor:0.2});
+  sr.reveal('.section-about-feature > *',100);
+  sr.reveal('.section-team-container > *',100);
+  sr.reveal('.section-review-container > *',100);
+  sr.reveal('.section-bottom-container *',100);
+};
+/* end scroll reveal show */
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
   toggle_menu();
+  scroll_reveal_show();
 });

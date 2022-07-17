@@ -58,7 +58,7 @@ menu .sticky-link{font-weight:bold;}
 
 
 .section-about-feature{display:grid; grid-gap:var(--size-4); grid-template-columns:repeat(auto-fit, minmax(233px ,1fr));}
-.saf-box{padding:var(--size-4);}
+.saf-box{padding:var(--size-4); height:100%;}
 .saf-box *{text-align:center;}
 .saf-icon .svgicon{width:auto; height:var(--size-6);}
 .saf-title{font-weight:bold; text-transform:uppercase;}

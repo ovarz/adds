@@ -54,6 +54,7 @@
 </script>
 
 <script defer src="js/lazysizes.min.js"></script>
+<script defer rancak-hold="js/scrollreveal.min.js"></script>
 <script defer rancak-hold="js/rancak.js"></script>
 </body>
 </html>
