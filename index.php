@@ -71,6 +71,35 @@
 
 
 
+  <section title="Our Product" id="Product" class="section-row section-product content_center">
+    <span class="width-max">
+	  <div class="section-title">Our Product</div>
+      <div class="section-container section-strimid">
+        <div class="product-preview">
+		  <div class="product-preview-frame flex_ori thumb-loading">
+		    <iframe width="560" height="315" class="lazyload" data-original="https://www.youtube.com/embed/SJnDrB7WEuE?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  </div>
+		</div>
+        <div class="product-info">
+		  <h2 class="product-title">Strim.id</h2>
+		  <h3 class="product-desc">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt felis vitae metus sollicitudin convallis. Quisque imperdiet lorem eget libero porta pulvinar. Fusce sem nulla, volutpat nec hendrerit eget</p> 
+			<p>suscipit a dui. Donec nec maximus leo. Quisque porttitor vitae metus non tempus. Aenean quis rutrum libero.</p>
+		  </h3>
+          <div class="product-info-more">
+            <a aria-label="Strim.id" title="Strim.id" class="btn product-info-btn" href=" ">
+              More Info &raquo;
+            </a>
+          </div>
+		</div>
+      </div>
+	</span>
+  </section>
+
+
+
+
+
   <section title="Our Team" id="Team" class="section-row section-team content_center">
     <span class="width-max">
 	  <div class="section-title">Our Team</div>

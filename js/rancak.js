@@ -49,11 +49,13 @@ var functionforscroll = function(id){
 /* scroll reveal show */
 var scroll_reveal_show = function(){
   window.sr = ScrollReveal({reset:false,mobile:true,viewFactor:0.2});
-  sr.reveal('.section-about-feature > *',100);
-  sr.reveal('.section-team-container > *',100);
-  sr.reveal('.section-review-container > *',100);
-  sr.reveal('.section-bottom-container > *',100);
-  sr.reveal('.socmed-list > *',100);
+  sr.reveal('.section-about-feature > *',300);
+  sr.reveal('.product-preview > *',300);
+  sr.reveal('.product-info > *',300);
+  sr.reveal('.section-team-container > *',300);
+  sr.reveal('.section-review-container > *',300);
+  sr.reveal('.section-bottom-container > *',300);
+  sr.reveal('.socmed-list > *',300);
 };
 /* end scroll reveal show */
 
