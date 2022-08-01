@@ -77,7 +77,7 @@
       <div class="section-container section-strimid">
         <div class="product-preview">
 		  <div class="product-preview-frame flex_ori thumb-loading">
-		    <iframe width="560" height="315" class="lazyload" data-original="https://www.youtube.com/embed/SJnDrB7WEuE?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    <iframe width="560" height="315" class="lazyload" data-original="embed/strimid.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		  </div>
 		</div>
         <div class="product-info">
