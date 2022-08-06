@@ -71,35 +71,10 @@
 
 
 
-  <section title="Our Creation" id="Creation" class="section-row section-product content_center">
+  <section title="Our Product" id="Product" class="section-row section-product content_center">
     <span class="width-max">
-	  <div class="section-title">Our Creation</div>
-	  
-	  
-	  
-      <div class="section-container section-product-container section-scoutdb">
-        <div class="product-preview">
-		  <div class="product-preview-frame flex_ori thumb-loading">
-		    <iframe width="560" height="315" class="lazyload" data-original="embed/strimid.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  </div>
-		</div>
-        <div class="product-info">
-		  <h2 class="product-title">Scoutdb</h2>
-		  <h3 class="product-desc">
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt felis vitae metus sollicitudin convallis. Quisque imperdiet lorem eget libero porta pulvinar. Fusce sem nulla, volutpat nec hendrerit eget</p> 
-			<p>suscipit a dui. Donec nec maximus leo. Quisque porttitor vitae metus non tempus. Aenean quis rutrum libero.</p>
-		  </h3>
-          <div class="product-info-more">
-            <a aria-label="Scoutdb" title="Scoutdb" class="btn product-info-btn" href=" ">
-              More Info &raquo;
-            </a>
-          </div>
-		</div>
-      </div>
-	  
-	  
-	  
-      <div class="section-container section-product-container section-strimid">
+	  <div class="section-title">Our Product</div>
+      <div class="section-container section-strimid">
         <div class="product-preview">
 		  <div class="product-preview-frame flex_ori thumb-loading">
 		    <iframe width="560" height="315" class="lazyload" data-original="embed/strimid.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -137,6 +112,41 @@
             <div class="stc-info">
               <h2 class="stc-name"><?php echo $random_name[array_rand($random_name)]; ?></h2>
               <h3 class="stc-title">Job Title</h3>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+	</span>
+  </section>
+
+
+
+
+
+  <section title="Client's Review" id="Review" class="section-row section-review content_center">
+    <span class="width-max">
+	  <div class="section-title">Client's Review</div>
+      <div class="section-container section-review-container">
+        <?php for ($i=1; $i <= 6 ; $i++) { ?>
+          <div class="svc-box">
+            <div class="svc-bubble">
+              <?php echo $random_summary[array_rand($random_summary)]; ?>
+            </div>
+            <div class="svc-bottom">
+              <div class="svc-point">
+                <?php require ($_SERVER['ADDS'].'img/icon/point-down.svg')?>
+              </div>
+              <div class="svc-profile">
+                <div class="svc-profile-thumb">
+                  <div class="svc-profile-circle flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/sample/profile-<?php echo rand(1,10); ?>.jpg" />
+                  </div>
+                </div>
+                <div class="svc-profile-info">
+                  <div class="svc-profile-name"><?php echo $random_name[array_rand($random_name)]; ?></div>
+                  <div class="svc-profile-title">Job Title at Company Name</div>
+                </div>
+              </div>
             </div>
           </div>
         <?php } ?>
