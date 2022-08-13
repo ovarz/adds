@@ -164,9 +164,9 @@
 		    <div class="bcl-icon"><?php require ($_SERVER['ADDS'].'img/icon/phone.svg')?></div>
 		    <div class="bcl-label">+62 8595 9596 495</div>
 		  </a>
-		  <a aria-label="admin@tukikinovasi.id" title="admin@tukikinovasi.id" class="bottom-contact-link" href="mailto:admin@tukikinovasi.id">
+		  <a aria-label="admin@adds.id" title="admin@adds.id" class="bottom-contact-link" href="mailto:admin@adds.id">
 		    <div class="bcl-icon"><?php require ($_SERVER['ADDS'].'img/icon/mail.svg')?></div>
-		    <div class="bcl-label">admin@tukikinovasi.id</div>
+		    <div class="bcl-label">admin@adds.id</div>
 		  </a>
 		</div>
 	  </div>
