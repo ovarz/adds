@@ -3,21 +3,23 @@
 	<div class="footer-copyright">ADDS &copy;2022 - All Right Reserved</div>
 	<div class="socmed-list">
 	  <a aria-label="Facebook ADDS" title="Facebook ADDS" class="socmed-link socmed-link-fb content_center" 
-	  href=" ">
+	  href="https://www.facebook.com/ScoutDB.ID/">
 		<?php require ($_SERVER['ADDS'].'img/icon/facebook-default.svg')?>
 	  </a>
+	  <a aria-label="Instagram ADDS" title="Instagram ADDS" class="socmed-link socmed-link-ig content_center" 
+	  href="https://www.instagram.com/scoutdb.id/">
+		<?php require ($_SERVER['ADDS'].'img/icon/instagram-default.svg')?>
+	  </a>
+	  <!--
 	  <a aria-label="Twitter ADDS" title="Twitter ADDS" class="socmed-link socmed-link-tw content_center" 
 	  href=" ">
 		<?php require ($_SERVER['ADDS'].'img/icon/twitter-default.svg')?>
-	  </a>
-	  <a aria-label="Instagram ADDS" title="Instagram ADDS" class="socmed-link socmed-link-ig content_center" 
-	  href=" ">
-		<?php require ($_SERVER['ADDS'].'img/icon/instagram-default.svg')?>
 	  </a>
 	  <a aria-label="Youtube ADDS" title="Youtube ADDS" class="socmed-link socmed-link-yt content_center" 
 	  href=" ">
 		<?php require ($_SERVER['ADDS'].'img/icon/youtube-default.svg')?>
 	  </a>
+	  -->
 	</div>
   </span>
 </footer>

@@ -80,7 +80,7 @@
       <div class="section-container section-product-container section-scoutdb">
         <div class="product-preview">
 		  <div class="product-preview-frame flex_ori thumb-loading">
-		    <iframe width="560" height="315" class="lazyload" data-original="embed/strimid.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    <iframe width="560" height="315" class="lazyload" data-original="embed/scoutdb.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		  </div>
 		</div>
         <div class="product-info">
@@ -153,24 +153,26 @@
 	  <div class="section-container section-bottom-container">
 	    <div class="bottom-name">PT Adhi Daya Digital Sejahtera</div>
         <div class="bottom-address">
-          <span>Jl Tebet Timur Dalam 8H Nomor 3,</span>
-		  <span>Tebet Timur,</span>
-		  <div>Jakarta Selatan, 12820.</div>
+		  <span>Ruko Villa Melati Mas SR.15 Nomor 23,</span>
+		  <span>Kel. Pondok Jagung Timur,</span>
+		  <span>Kec. Serpong Utara,</span><br/>
+		  <span>Kota Tangerang Selatan,</span>
+		  <span>Provinsi Banten, 15320.</span>
         </div>
 		<div class="bottom-contact">
-		  <a aria-label="000000000000" title="000000000000" class="bottom-contact-link" href="tel:000000000000">
+		  <a aria-label="085959596495" title="085959596495" class="bottom-contact-link" href="tel:085959596495">
 		    <div class="bcl-icon"><?php require ($_SERVER['ADDS'].'img/icon/phone.svg')?></div>
-		    <div class="bcl-label">+62 000 0000 0000</div>
+		    <div class="bcl-label">+62 8595 9596 495</div>
 		  </a>
-		  <a aria-label="pay_joe@adds.id" title="pay_joe@adds.id" class="bottom-contact-link" href="mailto:pay_joe@adds.id">
+		  <a aria-label="admin@tukikinovasi.id" title="admin@tukikinovasi.id" class="bottom-contact-link" href="mailto:admin@tukikinovasi.id">
 		    <div class="bcl-icon"><?php require ($_SERVER['ADDS'].'img/icon/mail.svg')?></div>
-		    <div class="bcl-label">pay_joe@adds.id</div>
+		    <div class="bcl-label">admin@tukikinovasi.id</div>
 		  </a>
 		</div>
 	  </div>
 	</span>
 	<div class="section-container bottom-map">
-	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.168633244517!2d106.85608301527579!3d-6.241493562856407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3a3f73c4065%3A0xaaeb5a200e418e4d!2sJl.%20Tebet%20Timur%20Dalam%20VIII%20H%20No.3%2C%20RT.11%2FRW.6%2C%20Tebet%20Tim.%2C%20Kec.%20Tebet%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012820!5e0!3m2!1sen!2sid!4v1656656706904!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.9270571540437!2d106.657202!3d-6.273322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca915395bd4a019a!2sFivestar5*2A%20Studio!5e0!3m2!1sen!2sid!4v1660359848957!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</div>
   </section>
   
