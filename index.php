@@ -1,4 +1,4 @@
-<?php require ('inc/base.php')?>
+<?php $web='adds'; require ('inc/base.php')?>
 <?php require ($_SERVER['ADDS'].'inc/sample.php')?>
 <?php require ($_SERVER['ADDS'].'inc/meta.php')?>
 <?php require ($_SERVER['ADDS'].'inc/header.php')?>
@@ -90,7 +90,7 @@
 			<p>suscipit a dui. Donec nec maximus leo. Quisque porttitor vitae metus non tempus. Aenean quis rutrum libero.</p>
 		  </h3>
           <div class="product-info-more">
-            <a aria-label="Scoutdb" title="Scoutdb" class="btn product-info-btn" href=" ">
+            <a aria-label="Scoutdb" title="Scoutdb" class="btn product-info-btn" href="scoutdb/">
               More Info &raquo;
             </a>
           </div>

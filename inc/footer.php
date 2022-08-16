@@ -2,22 +2,30 @@
   <span class="width-max">
 	<div class="footer-copyright">ADDS &copy;2022 - All Right Reserved</div>
 	<div class="socmed-list">
-	  <a aria-label="Facebook ADDS" title="Facebook ADDS" class="socmed-link socmed-link-fb content_center" 
-	  href="https://www.facebook.com/ScoutDB.ID/">
-		<?php require ($_SERVER['ADDS'].'img/icon/facebook-default.svg')?>
-	  </a>
-	  <a aria-label="Instagram ADDS" title="Instagram ADDS" class="socmed-link socmed-link-ig content_center" 
-	  href="https://www.instagram.com/scoutdb.id/">
-		<?php require ($_SERVER['ADDS'].'img/icon/instagram-default.svg')?>
-	  </a>
+	  <?php if($web == 'adds') { ?>
+        <a aria-label="Facebook ADDS" title="Facebook ADDS" class="socmed-link socmed-link-fb content_center" 
+        href="https://www.facebook.com/ScoutDB.ID/">
+          <?php require ($_SERVER['ADDS'].'img/icon/facebook-default.svg')?>
+        </a>
+        <a aria-label="Instagram ADDS" title="Instagram ADDS" class="socmed-link socmed-link-ig content_center" 
+        href="https://www.instagram.com/scoutdb.id/">
+          <?php require ($_SERVER['ADDS'].'img/icon/instagram-default.svg')?>
+        </a>
+	  <?php } ?>
+	  <?php if($web == 'scoutdb') { ?>
+        <a aria-label="Facebook ScoutDB" title="Facebook ScoutDB" class="socmed-link socmed-link-fb content_center" 
+        href="https://www.facebook.com/ScoutDB.ID/">
+          <?php require ($_SERVER['ADDS'].'img/icon/facebook-default.svg')?>
+        </a>
+        <a aria-label="Instagram ScoutDB" title="Instagram ScoutDB" class="socmed-link socmed-link-ig content_center" 
+        href="https://www.instagram.com/scoutdb.id/">
+          <?php require ($_SERVER['ADDS'].'img/icon/instagram-default.svg')?>
+        </a>
+	  <?php } ?>
 	  <!--
 	  <a aria-label="Twitter ADDS" title="Twitter ADDS" class="socmed-link socmed-link-tw content_center" 
 	  href=" ">
-		<?php require ($_SERVER['ADDS'].'img/icon/twitter-default.svg')?>
-	  </a>
-	  <a aria-label="Youtube ADDS" title="Youtube ADDS" class="socmed-link socmed-link-yt content_center" 
-	  href=" ">
-		<?php require ($_SERVER['ADDS'].'img/icon/youtube-default.svg')?>
+		<php require ($_SERVER['ADDS'].'img/icon/twitter-default.svg')?>
 	  </a>
 	  -->
 	</div>
