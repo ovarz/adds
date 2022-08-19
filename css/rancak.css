@@ -1,6 +1,6 @@
 *,html{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;-moz-box-sizing:border-box;box-sizing:border-box;font-size:100%;text-align:left}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}ol,ul{list-style:none}li{display:list-item}a img{border:0}a{text-decoration:none}b,strong{font-weight:800}i,em{font-style:italic}img{max-width:100%}.btn,input[type=button],select,button{-webkit-appearance:none;cursor:pointer;background-color:transparent}.hide{display:none;}
 
-:root{
+:root, :before, :after{
   --site-container:987px;
   --size-1:5px;
   --size-2:8px;

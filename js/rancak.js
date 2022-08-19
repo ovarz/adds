@@ -51,6 +51,7 @@ var scroll_reveal_show = function(){
   window.sr = ScrollReveal({reset:false,mobile:true,viewFactor:0.2});
   sr.reveal('.section-about-feature > *',300);
   sr.reveal('.product-preview > *',300);
+  sr.reveal('.feature-image > *',300);
   sr.reveal('.product-info > *',300);
   sr.reveal('.section-team-container > *',300);
   sr.reveal('.section-review-container > *',300);

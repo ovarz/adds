@@ -1,0 +1,7 @@
+.sci-frame:before{padding-top:209.86%;}
+
+
+
+@media screen and (min-width:1024px){
+  .section-cover{--cover-img-width:275px;}
+}

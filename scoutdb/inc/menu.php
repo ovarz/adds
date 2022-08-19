@@ -1,4 +1,7 @@
 <menu>
+  <a aria-label="Adds" title="Adds" class="sticky-link content_center" href=" ">
+    <span>Adds</span>
+  </a>
   <button title="Home" class="sticky-link content_center" onclick="functionforscroll('Home')">
     <span>Home</span>
   </button>

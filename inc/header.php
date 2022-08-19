@@ -7,7 +7,7 @@
 	  <?php require ($_SERVER['ADDS'].'inc/menu.php')?>
 	<?php } ?>
 	<?php if($web == 'scoutdb') { ?>
-      <a aria-label="ScoutDB" title="ScoutDB" class="sticky-link header-logo content_center" href="index.php">
+      <a aria-label="ScoutDB" title="ScoutDB" class="sticky-link header-logo content_center" href="<?php echo $web; ?>/index.php">
         <img alt="Logo ScoutDB" src="img/logo-scoutdb.png" width="682" height="181">
       </a>
 	  <?php require ($_SERVER['ADDS'].'scoutdb/inc/menu.php')?>

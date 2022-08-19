@@ -35,7 +35,7 @@
       </div>
 	  <div class="section-cover-image">
         <div class="sci-frame flex_ori thumb-loading">
-          <img alt="img_title" class="lazyload" data-original="img/cover-img.png" />
+          <img alt="img_title" class="lazyload" data-original="scoutdb/img/cover-img.png" />
         </div>
       </div>
 	</span>
@@ -61,17 +61,6 @@
     <span class="width-max">
 	  <div class="section-title">About ScoutDB</div>
 	  <div class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum turpis sed odio maximus dictum.</div>
-      <div class="section-container section-about-feature">
-        <?php for ($i=1; $i <= 3 ; $i++) { ?>
-		<div class="saf-box">
-		  <div class="saf-icon content_center">
-		    <?php require ($_SERVER['ADDS'].'img/icon/dev.svg')?>
-		  </div>
-		  <div class="saf-title">Lorem Ipsum</div>
-		  <div class="saf-desc"><?php echo $random_summary[array_rand($random_summary)]; ?></div>
-		</div>
-		<?php } ?>
-      </div>
 	</span>
   </section>
 
@@ -82,23 +71,46 @@
   <section title="Feature" id="Feature" class="section-row section-product content_center">
     <span class="width-max">
 	  <div class="section-title">Feature</div>
-      <div class="section-container section-product-container section-strimid">
-        <div class="product-preview">
-		  <div class="product-preview-frame flex_ori thumb-loading">
-		    <iframe width="560" height="315" class="lazyload" data-original="embed/strimid.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  
+      <div class="section-container section-product-container section-feature section-feature-1">
+        <div class="feature-image">
+		  <div class="feature-image-frame flex_ori thumb-loading">
+		    <img alt="img_title" class="lazyload" data-original="scoutdb/img/feature-1.png" />
 		  </div>
 		</div>
         <div class="product-info">
-		  <h2 class="product-title">Strim.id</h2>
+		  <h2 class="product-title">Daftarkan Pemain Sepakbola Muda Berbakat Anda</h2>
 		  <h3 class="product-desc">
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt felis vitae metus sollicitudin convallis. Quisque imperdiet lorem eget libero porta pulvinar. Fusce sem nulla, volutpat nec hendrerit eget</p> 
-			<p>suscipit a dui. Donec nec maximus leo. Quisque porttitor vitae metus non tempus. Aenean quis rutrum libero.</p>
+		    <p>Dapatkan kemudahan dalam mendaftarkan anak atau anak didik Anda, dan dapatkan kesempatan khusus untuk di ‘SCOUT’ oleh pencari bakat profesional.</p>
 		  </h3>
-          <div class="product-info-more">
-            <a aria-label="Strim.id" title="Strim.id" class="btn product-info-btn" href=" ">
-              More Info &raquo;
-            </a>
-          </div>
+		</div>
+      </div>
+	  
+      <div class="section-container section-product-container section-feature section-feature-2">
+        <div class="feature-image">
+		  <div class="feature-image-frame flex_ori thumb-loading">
+		    <img alt="img_title" class="lazyload" data-original="scoutdb/img/feature-2.png" />
+		  </div>
+		</div>
+        <div class="product-info">
+		  <h2 class="product-title">Nilai dan Ulas Pemain Secara Langsung</h2>
+		  <h3 class="product-desc">
+		    <p>Anda dapat menonton video dan memberikan penilaian secara langsung kepada masing-masing pemain. Penilaian dan ulasan Anda akan menentukan peringkat pemain.</p>
+		  </h3>
+		</div>
+      </div>
+	  
+      <div class="section-container section-product-container section-feature section-feature-3">
+        <div class="feature-image">
+		  <div class="feature-image-frame flex_ori thumb-loading">
+		    <img alt="img_title" class="lazyload" data-original="scoutdb/img/feature-3.png" />
+		  </div>
+		</div>
+        <div class="product-info">
+		  <h2 class="product-title">Temukan Pemain Muda Berbakat</h2>
+		  <h3 class="product-desc">
+		    <p>Tertarik untuk mencari pemain berbakat? Gunakan ScoutsDB untuk memantau dan menemukan potensi pemain berbakat sesuai kebutuhanmu.</p>
+		  </h3>
 		</div>
       </div>
 	</span>
