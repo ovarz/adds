@@ -48,6 +48,10 @@
 
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="css/hold.css?<?php echo $anticache; ?>" media="print" onload="this.media='all'"/>
+  <?php if($web != 'adds') { ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo $web; ?>/css/custom-hold.css?<?php echo $anticache; ?>" 
+	media="print" onload="this.media='all'"/>
+  <?php } ?>
 </noscript>
 <script defer>
   var loadDeferredStyles = function() {

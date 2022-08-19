@@ -27,9 +27,9 @@
           </h1>
           <h2 class="scc-subtitle">SaaSio is the best software platform for running an internet business.</h2>
           <div class="scc-anchor">
-            <button class="btn scc-button" onclick="functionforscroll('About')">
-              <span>View More</span>
-            </button>
+            <a aria-label="Download ScoutDB" title="Download ScoutDB" class="btn scc-button" href="scoutdb/">
+              <span>Download ScoutDB</span>
+            </a>
           </div>
         </div>
       </div>

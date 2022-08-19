@@ -54,6 +54,7 @@ menu .sticky-link{font-weight:bold;}
 .scc-title{line-height:120%; font-weight:900; display:inline-flex; flex-wrap:wrap;}
 .scc-label{display:inline-flex; margin-right:var(--size-1);}
 .scc-words-wrapper{width:100%;}
+a.scc-button{display:inline-flex;}
 .sci-frame{max-width:var(--cover-img-width); margin:0 auto;}
 .sci-frame:before{padding-top:calc((749 / 409) * 100%);}
 
