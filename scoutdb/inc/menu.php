@@ -11,4 +11,8 @@
   <button title="Feature" class="sticky-link content_center" onclick="functionforscroll('Feature')">
     <span>Feature</span>
   </button>
+  <a aria-label="Download" title="Download" class="sticky-link content_center" target="_blank"
+  href="https://play.google.com/store/apps/details?id=com.kkds.scoutdb2021">
+    <span>Download</span>
+  </a>
 </menu>

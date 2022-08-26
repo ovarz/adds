@@ -27,7 +27,8 @@
           </h1>
           <h2 class="scc-subtitle">SaaSio is the best software platform for running an internet business.</h2>
           <div class="scc-anchor">
-            <a aria-label="Download ScoutDB" title="Download ScoutDB" class="btn scc-button" href="scoutdb/">
+            <a aria-label="Download ScoutDB" title="Download ScoutDB" class="btn scc-button" target="_blank"
+  			href="https://play.google.com/store/apps/details?id=com.kkds.scoutdb2021">
               <span>Download ScoutDB</span>
             </a>
           </div>
