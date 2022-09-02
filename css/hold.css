@@ -71,6 +71,9 @@ width:calc(100% - (var(--frame-border) * 2)); height:calc(100% - (var(--frame-bo
 .product-title{font-size:36px; color:hsl(var(--color-link-primary) / 100%); font-weight:bold;}
 .product-desc p{line-height:150%; margin-top:var(--size-3); color:hsl(var(--color-link-primary) / 89%);}
 .product-info-more{margin-top:var(--size-5); display:flex;}
+.product-download{margin-top:var(--size-4); display:grid; grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); grid-gap:var(--size-3);}
+.product-download-button{margin-right:var(--size-2); line-height:0; display:inline-flex;}
+.product-download-button:before{padding-top:32.53%;}
 
 .section-scoutdb{--product-preview-max:320px;}
 .section-scoutdb .product-preview-frame:before{padding-top:157%;}

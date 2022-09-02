@@ -116,6 +116,39 @@
       </div>
 	</span>
   </section>
+
+
+
+
+
+  <section title="Download" id="Download" class="section-row section-product content_center">
+    <span class="width-max">
+	  <div class="section-container section-product-container section-scoutdb">
+        <div class="product-preview">
+		  <div class="product-preview-frame flex_ori thumb-loading">
+		    <iframe width="560" height="315" class="lazyload" data-original="embed/scoutdb.php" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  </div>
+		</div>
+        <div class="product-info">
+		  <h2 class="product-title">This app is available for your smart phone.</h2>
+		  <h3 class="product-desc">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt felis vitae metus sollicitudin convallis. Quisque imperdiet lorem eget libero porta pulvinar. Fusce sem nulla, volutpat nec hendrerit eget</p> 
+			<p>suscipit a dui. Donec nec maximus leo. Quisque porttitor vitae metus non tempus. Aenean quis rutrum libero.</p>
+		  </h3>
+          <div class="product-download">
+            <a aria-label="Google Play ScoutDB" title="Google Play ScoutDB" class="product-download-button flex_ori thumb-loading" target="_blank" href="https://play.google.com/store/apps/details?id=com.kkds.scoutdb2021">
+              <img alt="img_title" class="lazyload" data-original="img/google-play.png" />
+            </a>  
+			<!--
+            <a aria-label="App Play ScoutDB" title="App Play ScoutDB" class="product-download-button flex_ori thumb-loading" target="_blank" href="https://play.google.com/store/apps/details?id=com.kkds.scoutdb2021">
+              <img alt="img_title" class="lazyload" data-original="img/app-store.png" />
+            </a>  
+			-->
+		  </div>
+		</div>
+      </div>
+	</span>
+  </section>
   
 </div>
 <?php require ($_SERVER['ADDS'].'inc/footer.php')?>
