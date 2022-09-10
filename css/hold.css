@@ -75,8 +75,8 @@ width:calc(100% - (var(--frame-border) * 2)); height:calc(100% - (var(--frame-bo
 .product-download-button{margin-right:var(--size-2); line-height:0; display:inline-flex;}
 .product-download-button:before{padding-top:32.53%;}
 
-.section-scoutdb{--product-preview-max:320px;}
-.section-scoutdb .product-preview-frame:before{padding-top:157%;}
+.section-scoutdb{--product-preview-max:240px;}
+.section-scoutdb .product-preview-frame:before{padding-top:222.22%;}
 .section-strimid{--product-preview-max:320px;}
 .section-strimid .product-preview-frame:before{padding-top:157%;}
 
